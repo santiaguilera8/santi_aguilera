@@ -1,0 +1,72 @@
+
+/*Estoy editando la primer página*/
+
+
+html { 
+    background-image:  url(./imagenes/canario.png);
+    background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: cover;  
+}
+
+
+h1
+{
+   text-align: center;
+   border: 2px solid black;
+   padding: 1rem;
+}
+
+
+.miclase
+{
+color:brown;
+text-align: center;
+}
+
+.titulo_form {
+    text-align: center;
+}
+
+aside
+{
+    text-align: right;
+}
+
+nav {
+border: 2px solid black;
+text-align: center;
+display: flex;
+
+}
+
+li {
+display: inline-block;
+list-style-type: none;
+border: 2px solid #f00;
+margin: 0 20px;
+padding: 8px;
+border-radius: 2em;
+box-shadow: 2px 2px 4px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    background-image: url(./imagenes/canario.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    margin: 0 auto;
+    padding: 20px;
+    width: 200px;
+
+}
+
+footer {
+    border-color: blue;
+}

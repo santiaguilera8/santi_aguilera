@@ -1,0 +1,81 @@
+.rojo {
+    width: 500px; height: 90px;
+    background-color: rgb(145, 238, 136);
+    border: 3px dotted ;
+    top: 5px;
+    left: 1100px;
+    opacity: 0.5;
+
+}
+
+.verde {
+    width: 500px; height: 90px;
+    background-color: rgb(145, 238, 136);
+    border: 3px dotted;
+    top: 150px;
+    left: 1100px;
+    opacity: 0.5;
+   
+}
+
+.amarillo {
+    width: 300px; height: 300px;
+    background-color: rgb(235, 154, 194);
+    border: 3px dotted;
+    top: 30px;
+    right: 200px;
+    
+   
+}
+
+.azul {
+    width: 250px; height: 70px;
+    background-color: rgb(250, 255, 181);
+    border: 3px dotted;
+    top: 25px;
+    left: 25px;
+    opacity: 0.5;
+}  
+
+.gris { 
+    width: 250px; height: 70px;
+    background-color: rgb(250, 255, 181);
+    border: 3px dotted; 
+    top: 130px;
+    left: 25px;
+    opacity: 0.5;
+}
+
+.naranja { 
+    width: 120px; height: 250px;
+    background-color: rgb(162, 0, 255);
+    border: 3px dotted;
+    bottom: 35px;
+    right: 45px;
+    opacity: 0.5;
+    
+}
+
+.rojo, .verde, .azul, .gris {
+    position: relative;
+}
+
+
+.amarillo, .naranja {
+    position: absolute;
+}
+
+.rojo {z-index: 5;}
+
+.verde {z-index: 2;}
+
+.amarillo {z-index: 4;}
+
+.azul {z-index: 6;}
+
+.gris {z-index: 1;}
+
+.naranja {z-index: 3;}
+
+
+
